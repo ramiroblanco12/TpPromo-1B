@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF293932-30C5-4F00-9166-7A7EE4A7B842}|TpPromo-1B\\TpPromo-1B.csproj|c:\\users\\tbram\\documents\\facultad\\programacion iii\\tppromo-1b\\tppromo-1b\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{CF293932-30C5-4F00-9166-7A7EE4A7B842}|TpPromo-1B\\TpPromo-1B.csproj|solutionrelative:tppromo-1b\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF293932-30C5-4F00-9166-7A7EE4A7B842}|TpPromo-1B\\TpPromo-1B.csproj|c:\\users\\tbram\\documents\\facultad\\programacion iii\\tppromo-1b\\tppromo-1b\\ingresocodigo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CF293932-30C5-4F00-9166-7A7EE4A7B842}|TpPromo-1B\\TpPromo-1B.csproj|solutionrelative:tppromo-1b\\ingresocodigo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +31,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IngresoCodigo.aspx",
+              "DocumentMoniker": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\TpPromo-1B\\IngresoCodigo.aspx",
+              "RelativeDocumentMoniker": "TpPromo-1B\\IngresoCodigo.aspx",
+              "ToolTip": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\TpPromo-1B\\IngresoCodigo.aspx",
+              "RelativeToolTip": "TpPromo-1B\\IngresoCodigo.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-29T21:23:03.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MasterPage.Master",
+              "DocumentMoniker": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\TpPromo-1B\\MasterPage.Master",
+              "RelativeDocumentMoniker": "TpPromo-1B\\MasterPage.Master",
+              "ToolTip": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\TpPromo-1B\\MasterPage.Master",
+              "RelativeToolTip": "TpPromo-1B\\MasterPage.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-29T21:19:32.725Z",
+              "EditorCaption": ""
             }
           ]
         }
