@@ -13,5 +13,10 @@ namespace TpPromo_1B
         {
 
         }
+
+        protected void btnVoucher_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("SeleccionPremio.aspx");
+        }
     }
 }
