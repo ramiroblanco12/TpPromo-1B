@@ -8,7 +8,7 @@ namespace Negocio
 {
     public class VoucherNegocio
     {
-        public bool buscar(string codigo)
+        public bool buscar(string codigo, ref bool usado)
         {
             List<Voucher> lista = new List<Voucher>();
             AccesoDatos datos = new AccesoDatos();
@@ -21,15 +21,13 @@ namespace Negocio
 
                 while (datos.Lector.Read())
                 {
-                    Voucher aux = new Voucher
+                    DateTime? fechaUsado = datos.Lector["FechaCanje"] != DBNull.Value
+               ? (DateTime?)datos.Lector["FechaCanje"]
+               : null;
+                    if (fechaUsado != null)
                     {
-                        CodigoVoucher = (string)datos.Lector["CodigoVoucher"],
-                        IdCliente = (int)datos.Lector["IdCliente"],
-                        FechaCanje = (DateTime)datos.Lector["FechaCanje"],
-                        IdArticulo = (int)datos.Lector["IdArticulo"]
-
-                    };
-
+                        usado = true;
+                    }
                     return true;
                 }
 

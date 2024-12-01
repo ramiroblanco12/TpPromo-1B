@@ -11,6 +11,7 @@ namespace TpPromo_1B
 {
     public partial class IngresoCodigo : System.Web.UI.Page
     {
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -18,17 +19,28 @@ namespace TpPromo_1B
             }
         }
 
+
         protected void btnVoucher_Click(object sender, EventArgs e)
         {
             VoucherNegocio negocio = new VoucherNegocio();
             string codigo = txtVoucher.Text;
-            if (negocio.buscar(codigo))
+            bool usado = false;
+            if (negocio.buscar(codigo, ref usado))
             {
-                string script = "alert('Voucher valido');";
-                ClientScript.RegisterStartupScript(this.GetType(), "Alert", script, true);
-            Response.Redirect("SeleccionPremio.aspx");
+                if (usado)
+                {
+                    string script = "alert('Voucher ya utilizado');";
+                    ClientScript.RegisterStartupScript(this.GetType(), "Alert", script, true);
+                }
+                else
+                {
+                    Response.Redirect($"SeleccionPremio.aspx?codigo={codigo}");
+
+
+                }
             }
-            else {
+            else
+            {
                 string script = "alert('No encontrado');";
                 ClientScript.RegisterStartupScript(this.GetType(), "Alert", script, true);
             }
