@@ -116,3 +116,9 @@ C:\Users\tomas\OneDrive\Escritorio\TpPromo-1B\TpPromo-1B\obj\Debug\TpPromo-1B.cs
 C:\Users\tomas\OneDrive\Escritorio\TpPromo-1B\TpPromo-1B\obj\Debug\TpPromo-1B.csproj.Up2Date
 C:\Users\tomas\OneDrive\Escritorio\TpPromo-1B\TpPromo-1B\obj\Debug\TpPromo-1B.dll
 C:\Users\tomas\OneDrive\Escritorio\TpPromo-1B\TpPromo-1B\obj\Debug\TpPromo-1B.pdb
+C:\Users\tbram\Documents\FACULTAD\PROGRAMACION III\TpPromo-1B\TpPromo-1B\bin\Dominio.dll
+C:\Users\tbram\Documents\FACULTAD\PROGRAMACION III\TpPromo-1B\TpPromo-1B\bin\Negocio.dll
+C:\Users\tbram\Documents\FACULTAD\PROGRAMACION III\TpPromo-1B\TpPromo-1B\bin\Dominio.pdb
+C:\Users\tbram\Documents\FACULTAD\PROGRAMACION III\TpPromo-1B\TpPromo-1B\bin\Dominio.dll.config
+C:\Users\tbram\Documents\FACULTAD\PROGRAMACION III\TpPromo-1B\TpPromo-1B\bin\Negocio.pdb
+C:\Users\tbram\Documents\FACULTAD\PROGRAMACION III\TpPromo-1B\TpPromo-1B\bin\Negocio.dll.config
