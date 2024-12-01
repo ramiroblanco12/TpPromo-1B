@@ -39,13 +39,13 @@
                         </div>
                         <div class="card-body">
                             <div class="mb-3">
-<%--                                <asp:Label ID="lblNombre1" runat="server"></asp:Label>--%>
+                                <asp:Label ID="lblNombre1" runat="server"></asp:Label>
                             </div>
                             <div class="mb-3">
-<%--                                <asp:Label ID="lblDesc1" runat="server"></asp:Label>--%>
+                                <asp:Label ID="lblDesc1" runat="server"></asp:Label>
                             </div>
                             <div class="mb-3">
-                                <asp:Button ID="btnPremio1" CssClass="btn btn-primary" runat="server" Text="Quiero este!" />
+                                <asp:Button ID="btnPremio1" CssClass="btn btn-primary" runat="server" OnClick="btnPremio1_Click" Text="Quiero este!" />
                             </div>
                         </div>
                     </div>
@@ -75,13 +75,13 @@
                         </div>
                         <div class="card-body">
                             <div class="mb-3">
-<%--                                <asp:Label ID="lblNombre2" runat="server"></asp:Label>
+                                <asp:Label ID="lblNombre2" runat="server"></asp:Label>
                             </div>
                             <div class="mb-3">
-                                <asp:Label ID="lblDesc2" runat="server"></asp:Label>--%>
+                                <asp:Label ID="lblDesc2" runat="server"></asp:Label>
                             </div>
                             <div class="mb-3">
-                                <asp:Button ID="btnPremio2" CssClass="btn btn-primary" runat="server" Text="Quiero este!" />
+                                <asp:Button ID="btnPremio2" CssClass="btn btn-primary" runat="server" OnClick="btnPremio2_Click" Text="Quiero este!" />
                             </div>
                         </div>
                     </div>
@@ -111,13 +111,13 @@
                         </div>
                         <div class="card-body">
                             <div class="mb-3">
-<%--                                <asp:Label ID="lblNombre3" runat="server"></asp:Label>
+                                <asp:Label ID="lblNombre3" runat="server"></asp:Label>
                             </div>
                             <div class="mb-3">
                                 <asp:Label ID="lblDesc3" runat="server"></asp:Label>
-                            </div>--%>
+                            </div>
                             <div class="mb-3">
-                                <asp:Button ID="btnPremio3" CssClass="btn btn-primary" runat="server" Text="Quiero este!" />
+                                <asp:Button ID="btnPremio3" CssClass="btn btn-primary" runat="server" OnClick="btnPremio3_Click" Text="Quiero este!" />
                             </div>
                         </div>
                     </div>
