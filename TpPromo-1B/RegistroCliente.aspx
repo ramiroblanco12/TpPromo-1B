@@ -4,62 +4,63 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-         <style>
-        
-        .form-control {
-            border: 2px solid #007BFF; 
-            border-radius: 5px;      
-            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
-        }
+    <style>
 
-        .form-control:focus {
-            border: 2px solid #0056b3; 
-            box-shadow: 0 0 8px rgba(0, 86, 179, 0.8); 
-            outline: none; 
-        }
+.custom-textbox {
+    border: 2px solid #007bff; /* Borde azul */
+    border-radius: 5px;        /* Bordes redondeados */
+    padding: 10px;             /* Espaciado interno */
+    font-size: 1rem;           /* Tamaño de fuente */
+    outline: none;             /* Quitar borde de foco predeterminado */
+    transition: all 0.3s ease; /* Suavizar las transiciones */
+}
+
+.custom-textbox:focus {
+    border-color: #0056b3;     /* Cambiar color al enfocarse */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra azul al enfocar */
+}
     </style>
+
 
     <div class="container d-flex justify-content-center align-items-center" style="height: 70vh;">
         <div class="row g-3 bg-light p-4 rounded" style="width: 600px;">
             <h5 class="text-center">Promo Ganá</h5>
 
-            <!-- Primera fila: DNI -->
             <div class="col-12">
                 <label for="InputDni" class="form-label">DNI</label>
-                <input type="text" class="form-control" id="InputDni" placeholder="Ingrese su DNI" required>
+                <asp:TextBox ID="txtDni" runat="server" CssClass="custom-textbox" placeholder="Ingrese su DNI"></asp:TextBox>
             </div>
 
-            <!-- Segunda fila: Nombre, Apellido, Email -->
             <div class="col-md-4">
                 <label for="InputNombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="InputNombre" placeholder="Ingrese su nombre" required>
+                <asp:TextBox ID="txtNombre" runat="server" CssClass="custom-textbox" placeholder="Ingrese su Nombre"></asp:TextBox>
             </div>
             <div class="col-md-4">
                 <label for="InputApellido" class="form-label">Apellido</label>
-                <input type="text" class="form-control" id="InputApellido" placeholder="Ingrese su apellido" required>
+                <asp:TextBox ID="txtApellido" runat="server" CssClass="custom-textbox" placeholder="Ingrese su Apellido"></asp:TextBox>
             </div>
             <div class="col-md-4">
                 <label for="InputEmail" class="form-label">Email</label>
-                <input type="email" class="form-control" id="InputEmail" placeholder="name@example.com" required>
+                <asp:TextBox ID="txtEmail" runat="server" CssClass="custom-textbox" TextMode="Email" placeholder="Ingrese su Email"></asp:TextBox>
             </div>
 
-            <!-- Tercera fila: Dirección, Ciudad, Código Postal -->
             <div class="col-md-4">
                 <label for="InputDireccion" class="form-label">Dirección</label>
-                <input type="text" class="form-control" id="InputDireccion" placeholder="Ingrese su dirección" required>
+                <asp:TextBox ID="txtDireccion" runat="server" CssClass="custom-textbox" placeholder="Ingrese su Direccion"></asp:TextBox>
             </div>
             <div class="col-md-4">
                 <label for="InputCiudad" class="form-label">Ciudad</label>
-                <input type="text" class="form-control" id="InputCiudad" placeholder="Ingrese su ciudad" required>
+                <asp:TextBox ID="txtCiudad" runat="server" CssClass="custom-textbox" placeholder="Ingrese su Ciudad"></asp:TextBox>
             </div>
             <div class="col-md-4">
                 <label for="InputCP" class="form-label">Código Postal</label>
-                <input type="text" class="form-control" id="InputCP" placeholder="Ingrese su código postal" required>
+                <asp:TextBox ID="txtCP" runat="server" CssClass="custom-textbox" placeholder="Ingrese su Codigo Postal"></asp:TextBox>
             </div>
 
-            <!-- Botón de envío -->
             <div class="col-12 text-center">
-                <button class="btn btn-primary" type="submit">Enviar</button>
+                <asp:Button ID="btnEnviar" cssclass="btn btn-primary" onclick="btnEnviar_Click" runat="server" Text="Button" />
+                <asp:Label ID="lblError" runat="server" CssClass="text-danger" Visible="false"></asp:Label>
+
             </div>
         </div>
     </div>

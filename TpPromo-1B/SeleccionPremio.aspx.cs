@@ -37,24 +37,24 @@ namespace TpPromo_1B
                     string descripcionArticulo = (string)datos.Lector["Descripcion"];
                     string imagenUrl = (string)datos.Lector["ImagenUrl"];
 
-                    if (cont == 0)
-                    {
-                        lblNombre1.Text = nombreArticulo;
-                        lblDesc1.Text = descripcionArticulo;
-                        img1.Src = imagenUrl; 
-                    }
-                    else if (cont == 1)
-                    {
-                        lblNombre2.Text = nombreArticulo;
-                        lblDesc2.Text = descripcionArticulo;
-                        img2.Src = imagenUrl;
-                    }
-                    else if (cont == 2)
-                    {
-                        lblNombre3.Text = nombreArticulo;
-                        lblDesc3.Text = descripcionArticulo;
-                        img3.Src = imagenUrl;
-                    }
+                    //if (cont == 0)
+                    //{
+                    //    lblNombre1.Text = nombreArticulo;
+                    //    lblDesc1.Text = descripcionArticulo;
+                    //    img1.Src = imagenUrl; 
+                    //}
+                    //else if (cont == 1)
+                    //{
+                    //    lblNombre2.Text = nombreArticulo;
+                    //    lblDesc2.Text = descripcionArticulo;
+                    //    img2.Src = imagenUrl;
+                    //}
+                    //else if (cont == 2)
+                    //{
+                    //    lblNombre3.Text = nombreArticulo;
+                    //    lblDesc3.Text = descripcionArticulo;
+                    //    img3.Src = imagenUrl;
+                    //}
 
                     cont++;
                 }
