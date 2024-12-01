@@ -3,11 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF293932-30C5-4F00-9166-7A7EE4A7B842}|TpPromo-1B\\TpPromo-1B.csproj|C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\tppromo-1b\\seleccionpremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{CF293932-30C5-4F00-9166-7A7EE4A7B842}|TpPromo-1B\\TpPromo-1B.csproj|solutionrelative:tppromo-1b\\seleccionpremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF293932-30C5-4F00-9166-7A7EE4A7B842}|TpPromo-1B\\TpPromo-1B.csproj|c:\\users\\tbram\\documents\\facultad\\programacion iii\\tppromo-1b\\tppromo-1b\\registrocliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{CF293932-30C5-4F00-9166-7A7EE4A7B842}|TpPromo-1B\\TpPromo-1B.csproj|C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\tppromo-1b\\registrocliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{CF293932-30C5-4F00-9166-7A7EE4A7B842}|TpPromo-1B\\TpPromo-1B.csproj|solutionrelative:tppromo-1b\\registrocliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -19,8 +15,20 @@
       "RelativeMoniker": "D:0:0:{7618FBC6-D15F-4366-8E79-9BBBAB1FEF66}|Negocio\\Negocio.csproj|solutionrelative:negocio\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{66F7FA78-39E4-49AB-BBD4-3F16D3C7EF99}|Dominio\\Dominio.csproj|c:\\users\\tbram\\documents\\facultad\\programacion iii\\tppromo-1b\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F7FA78-39E4-49AB-BBD4-3F16D3C7EF99}|Dominio\\Dominio.csproj|solutionrelative:dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F7FA78-39E4-49AB-BBD4-3F16D3C7EF99}|Dominio\\Dominio.csproj|c:\\users\\tbram\\documents\\facultad\\programacion iii\\tppromo-1b\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F7FA78-39E4-49AB-BBD4-3F16D3C7EF99}|Dominio\\Dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CF293932-30C5-4F00-9166-7A7EE4A7B842}|TpPromo-1B\\TpPromo-1B.csproj|C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\tppromo-1b\\seleccionpremio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF293932-30C5-4F00-9166-7A7EE4A7B842}|TpPromo-1B\\TpPromo-1B.csproj|solutionrelative:tppromo-1b\\seleccionpremio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF293932-30C5-4F00-9166-7A7EE4A7B842}|TpPromo-1B\\TpPromo-1B.csproj|c:\\users\\tbram\\documents\\facultad\\programacion iii\\tppromo-1b\\tppromo-1b\\seleccionpremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CF293932-30C5-4F00-9166-7A7EE4A7B842}|TpPromo-1B\\TpPromo-1B.csproj|solutionrelative:tppromo-1b\\seleccionpremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7618FBC6-D15F-4366-8E79-9BBBAB1FEF66}|Negocio\\Negocio.csproj|C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,19 +58,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegistroCliente.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\TpPromo-1B\\RegistroCliente.aspx.cs",
-              "RelativeDocumentMoniker": "TpPromo-1B\\RegistroCliente.aspx.cs",
-              "ToolTip": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\TpPromo-1B\\RegistroCliente.aspx.cs",
-              "RelativeToolTip": "TpPromo-1B\\RegistroCliente.aspx.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBYAAAANAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\Dominio\\Articulo.cs",
+              "RelativeDocumentMoniker": "Dominio\\Articulo.cs",
+              "ToolTip": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\Dominio\\Articulo.cs",
+              "RelativeToolTip": "Dominio\\Articulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T17:43:31.032Z"
+              "WhenOpened": "2024-12-01T19:51:40.443Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\Dominio\\Cliente.cs",
+              "RelativeDocumentMoniker": "Dominio\\Cliente.cs",
+              "ToolTip": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\Dominio\\Cliente.cs",
+              "RelativeToolTip": "Dominio\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T19:51:27.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "RegistroCliente.aspx",
               "DocumentMoniker": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\TpPromo-1B\\RegistroCliente.aspx",
               "RelativeDocumentMoniker": "TpPromo-1B\\RegistroCliente.aspx",
@@ -75,19 +97,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\Negocio\\EmailService.cs",
               "RelativeDocumentMoniker": "Negocio\\EmailService.cs",
               "ToolTip": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\Negocio\\EmailService.cs",
               "RelativeToolTip": "Negocio\\EmailService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBwAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T17:23:22.416Z"
+              "WhenOpened": "2024-12-01T17:23:22.416Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AccesoDatos.cs",
               "DocumentMoniker": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\Negocio\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "Negocio\\AccesoDatos.cs",
@@ -99,19 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SeleccionPremio.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\TpPromo-1B\\SeleccionPremio.aspx.cs",
-              "RelativeDocumentMoniker": "TpPromo-1B\\SeleccionPremio.aspx.cs",
-              "ToolTip": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\TpPromo-1B\\SeleccionPremio.aspx.cs",
-              "RelativeToolTip": "TpPromo-1B\\SeleccionPremio.aspx.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAlwDgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:38:24.382Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "SeleccionPremio.aspx",
               "DocumentMoniker": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\TpPromo-1B\\SeleccionPremio.aspx",
               "RelativeDocumentMoniker": "TpPromo-1B\\SeleccionPremio.aspx",
@@ -120,6 +131,32 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-12-01T16:38:22.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistroCliente.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\TpPromo-1B\\RegistroCliente.aspx.cs",
+              "RelativeDocumentMoniker": "TpPromo-1B\\RegistroCliente.aspx.cs",
+              "ToolTip": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\TpPromo-1B\\RegistroCliente.aspx.cs",
+              "RelativeToolTip": "TpPromo-1B\\RegistroCliente.aspx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:43:31.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SeleccionPremio.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\TpPromo-1B\\SeleccionPremio.aspx.cs",
+              "RelativeDocumentMoniker": "TpPromo-1B\\SeleccionPremio.aspx.cs",
+              "ToolTip": "C:\\Users\\tbram\\Documents\\FACULTAD\\PROGRAMACION III\\TpPromo-1B\\TpPromo-1B\\SeleccionPremio.aspx.cs",
+              "RelativeToolTip": "TpPromo-1B\\SeleccionPremio.aspx.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAawDgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:38:24.382Z",
               "EditorCaption": ""
             }
           ]
