@@ -122,3 +122,9 @@ C:\Users\tbram\Documents\FACULTAD\PROGRAMACION III\TpPromo-1B\TpPromo-1B\bin\Dom
 C:\Users\tbram\Documents\FACULTAD\PROGRAMACION III\TpPromo-1B\TpPromo-1B\bin\Dominio.dll.config
 C:\Users\tbram\Documents\FACULTAD\PROGRAMACION III\TpPromo-1B\TpPromo-1B\bin\Negocio.pdb
 C:\Users\tbram\Documents\FACULTAD\PROGRAMACION III\TpPromo-1B\TpPromo-1B\bin\Negocio.dll.config
+C:\Users\tomas\OneDrive\Escritorio\TpPromo-1B\TpPromo-1B\bin\Dominio.dll
+C:\Users\tomas\OneDrive\Escritorio\TpPromo-1B\TpPromo-1B\bin\Negocio.dll
+C:\Users\tomas\OneDrive\Escritorio\TpPromo-1B\TpPromo-1B\bin\Dominio.pdb
+C:\Users\tomas\OneDrive\Escritorio\TpPromo-1B\TpPromo-1B\bin\Dominio.dll.config
+C:\Users\tomas\OneDrive\Escritorio\TpPromo-1B\TpPromo-1B\bin\Negocio.pdb
+C:\Users\tomas\OneDrive\Escritorio\TpPromo-1B\TpPromo-1B\bin\Negocio.dll.config
