@@ -20,14 +20,6 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link" href="IngresoCodigo.aspx">IngresoCodigo</a>
-                            <a class="nav-link" href="SeleccionPremio.aspx">SeleccionPremio</a>
-                            <a class="nav-link" href="RegistroCliente.aspx">RegistroCliente</a>
-
-                        </div>
-                    </div>
                 </div>
             </nav>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
